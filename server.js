@@ -10,6 +10,7 @@ app.use(cors());
 
 
 const knex = require('knex')
+
 const db = knex({ //connect db
     client : 'pg',
     connection : {
